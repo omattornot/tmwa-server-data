@@ -1,4 +1,4 @@
-// Aegis zone 8.5 -> eAthena conversion by Komurka
+	// Aegis zone 8.5 -> eAthena conversion by Komurka
 // + Mob Skills for Einbroch+ by Lupus
 //MOB_ID, a mostly unused character sequence (for information), STATE, SKILL_ID, SKILL_LV,
 // rate (10000 = 100%), casttime, delay, cancelable, a target, a condition type, a condition value,
@@ -31,10 +31,17 @@
 1092,SlimeBlast@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
 1091,BlueSlime@NPC_SUMMONSLAVE_blastX1,any,198,1,8000,1000,5000,no,self,slavelt,1,1092,0,0,0,0,
 1093,WhiteSlime@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
-1015,SantaSlime@NPC_EMOTION,idle,199,1,200,0,5000,yes,self,always,0,7,0,0,0,0,
-1015,SantaSlime@NPC_EMOTION,walk,199,1,100,0,10000,yes,self,always,0,5,0,0,0,0,
+1015,SantaSlime@NPC_EMOTION,idle,199,1,200,0,5000,yes,self,always,0,5,0,0,0,0,
+1015,SantaSlime@NPC_EMOTION,walk,199,1,100,0,10000,yes,self,always,0,7,0,0,0,0,
 1015,SantaSlime@NPC_SUMMONSLAVE,attack,198,5,10000,2000,60000,no,self,slavele,3,1016,0,0,0,0,
 1015,SantaSlime@NPC_SUMMONSLAVE,idle,198,5,10000,2000,60000,no,self,slavele,3,1016,0,0,0,0,
+
+//Summoned Player
+1200,Mahouking@NPC_EMOTION,any,199,1,100,0,5000,yes,self,always,0,126,0,0,0,0,
+1201,Reny@NPC_EMOTION,any,199,1,100,0,5000,yes,self,always,0,111,0,0,0,0,
+1202,Rill@NPC_EMOTION,any,199,1,100,0,5000,yes,self,always,0,122,0,0,0,0,
+1203,Trav@NPC_EMOTION,any,199,1,100,0,5000,yes,self,always,0,3,0,0,0,0,
+
 // Slime Mothers
 1115,SeaSlimeMother@NPC_SUMMONSLAVE,any,198,2,8000,1000,5000,no,self,slavelt,2,1109,0,0,0,0,
 1118,GreenSlimeMother@NPC_SUMMONSLAVE,any,198,2,8000,1000,5000,no,self,slavelt,2,1110,0,0,0,0,
